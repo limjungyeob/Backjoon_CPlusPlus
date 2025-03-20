@@ -8,8 +8,9 @@ int main()
     std::stack<int> s;
     int n;
     std::string ans;
-    std::cin>>n;
-    int m=0;
+
+    std::cin >> n;
+    int m = 0;
     while(n--) {
         int x;
         std::cin>>x;
@@ -25,6 +26,7 @@ int main()
             bool found = false;
             if(!s.empty()) {
                 int top = s.top();
+                s.pop();
                 ans += '-';
                 if(x == top) {
                     found = true;
