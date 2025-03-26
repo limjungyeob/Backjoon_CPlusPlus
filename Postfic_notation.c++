@@ -21,7 +21,7 @@ int main()
                 }
                 stack.push(s[i]);
             }else if(s[i] == '+' || s[i] == '-') {
-                while(!stack.empty() && (stack.top() == '+' || stack.top() == '-')) {
+                while(!stack.empty() && stack.top() != '(') {
                     std::cout<<stack.top();
                     stack.pop();
                 }
@@ -32,9 +32,9 @@ int main()
                     stack.pop();
                 }
                 stack.pop();
+            }
         }
     }
-}
     while(!stack.empty()) {
         std::cout<<stack.top();
         stack.pop();
