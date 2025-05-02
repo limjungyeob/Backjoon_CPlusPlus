@@ -1,4 +1,6 @@
 #include<iostream>
+//P10872
+//https://www.acmicpc.net/problem/10872
 int factorial(int n) {
     if(n==0) {
         return 1;

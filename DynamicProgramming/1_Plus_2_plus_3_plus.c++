@@ -1,4 +1,6 @@
 #include<iostream>
+//P9095
+// https://www.acmecontest.org/problem/9095
 int d[11];
 int main() {
     d[0] = 1;

@@ -1,6 +1,8 @@
 #include<iostream>
 #include<stack>
 #include<string>
+//P1406
+// https://www.acmecontest.org/problem/1406
 int main()
 {
     std::ios_base::sync_with_stdio(false);
@@ -36,14 +38,14 @@ int main()
         }
 
     }
-    // leftì— ìˆëŠ” ì›ì†Œë“¤ ëª¨ë‘ rightë¡œ ì´ë™!
+    // left?— ?ˆ?Š” ?›?†Œ?“¤ ëª¨ë‘ rightë¡? ?´?™!
     while (!left.empty())
     {
         right.push(left.top());
         left.pop();
     }
 
-    // rightì— ìˆëŠ” ì›ì†Œ ì¶œë ¥
+    // right?— ?ˆ?Š” ?›?†Œ ì¶œë ¥
     while (!right.empty())
     {
         std::cout << right.top();

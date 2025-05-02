@@ -2,6 +2,8 @@
 #include<iomanip>
 #include<stack>
 #include<string>
+//P1935
+// https://www.acmecontest.org/problem/1935
 int operand[26];
 int main()
 {
@@ -16,7 +18,7 @@ int main()
         std::cin>>operand[i];
     }
     for(char ch : postfix) {
-        //í”¼ì—°ì‚°ìž(ì•„ìŠ¤í‚¤ ê°’ìœ¼ë¡œ ëœ ë¬¸ìžì—´ ì €ìž¥ìž¥)
+        //?”¼?—°?‚°?ž(?•„?Š¤?‚¤ ê°’ìœ¼ë¡? ?œ ë¬¸ìž?—´ ????ž¥?ž¥)
         if(ch >= 'A' && ch <= 'z') {
             stack.push((double)operand[ch - 'A']);
         } else {
@@ -35,7 +37,7 @@ int main()
             }
         }
     }
-    //ì†Œìˆ«ì  2ìžë¦¬ ê¹Œì§€ ì¶œë ¥ë ¥
+    //?†Œ?ˆ«?  2?žë¦? ê¹Œì?? ì¶œë ¥? ¥
     std::cout<<std::fixed <<std::setprecision(2) <<stack.top() <<'\n';
 
 }

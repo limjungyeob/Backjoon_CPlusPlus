@@ -1,4 +1,6 @@
 #include<iostream>
+//P1929
+// https://www.acmecontest.org/problem/1929
 const int MAX = 1000000;
 bool check[MAX+1];
 int main()

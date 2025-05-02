@@ -1,13 +1,16 @@
 #include<iostream>
 #include<stack>
 #include<string>
+
+//P9093
+// https://www.acmecontest.org/problem/9093
 int main()
 {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
     int t;
     std::cin>>t;
-    //ì²« ë²ˆì§¸ ìƒìˆ˜ ê°’ì„ ê±´ë„ˆë›°ê¸° ìœ„í•´ì„œ
+    //Ã¹ ¹øÂ° »ó¼ö °ªÀ» °Ç³Ê¶Ù±â À§ÇØ¼­
     std::cin.ignore();
 
     while(t--) {

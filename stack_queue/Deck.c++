@@ -1,6 +1,8 @@
 #include<iostream>
 #include<deque>
 #include<string>
+//P10866
+// https://www.acmecontest.org/problem/10866
 int main()
 {
     std::ios_base::sync_with_stdio(false);

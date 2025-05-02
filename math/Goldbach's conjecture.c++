@@ -1,4 +1,6 @@
 #include<iostream>
+//P6588
+//https://www.acmicpc.net/problem/6588
 const int MAX = 1000000;
 bool check[MAX+1];
 int prime[MAX];

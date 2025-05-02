@@ -1,6 +1,8 @@
 #include<iostream>
 #include<string>
 #include<algorithm>
+//P1152
+// https://www.acmecontest.org/problem/1152
 int main()
 {
     std::ios_base::sync_with_stdio(false);

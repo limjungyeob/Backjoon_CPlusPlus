@@ -1,4 +1,6 @@
 #include <iostream>
+// P1463
+// https://www.acmecontest.org/problem/1463
 int d[1000001];
 int go(int n) {
     if (n == 1) {

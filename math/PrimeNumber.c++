@@ -1,4 +1,6 @@
 #include<iostream>
+//P1978
+// https://www.acmecontest.org/problem/1978
 bool isPrimeNumber(int num) {
     if(num<2) {
         return false;

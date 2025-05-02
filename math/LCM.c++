@@ -1,5 +1,6 @@
 #include<iostream>
-
+//P1934
+//https://www.acmicpc.net/problem/1934
 int gcd(int a, int b) {
     if(b==0) {
         return a;

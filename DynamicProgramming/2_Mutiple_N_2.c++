@@ -1,5 +1,7 @@
 #include <cstdio>
 #include <iostream>
+// P11727
+// https://www.acmecontest.org/problem/11727
 int d[1001];
 int main()
 {

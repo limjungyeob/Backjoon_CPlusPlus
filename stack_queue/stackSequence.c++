@@ -1,6 +1,8 @@
 #include<iostream>
 #include<stack>
 #include<string>
+//P1874
+// https://www.acmecontest.org/problem/1874
 int main()
 {
     std::ios_base::sync_with_stdio(false);

@@ -1,4 +1,6 @@
 #include<iostream>
+//P10952
+//https://www.acmicpc.net/problem/10952
 int main()
 {
     std::ios_base::sync_with_stdio(false);
