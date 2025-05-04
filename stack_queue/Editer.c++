@@ -2,7 +2,7 @@
 #include<stack>
 #include<string>
 //P1406
-// https://www.acmecontest.org/problem/1406
+// https://www.acmicpc.net/problem/1406
 int main()
 {
     std::ios_base::sync_with_stdio(false);

@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 //P9012
-// https://www.acmecontest.org/problem/9012
+// https://www.acmicpc.net/problem/9012
 std::string valid(std::string s) {
     int cnt =0;
     for(int i=0; i<s.size(); i++) {

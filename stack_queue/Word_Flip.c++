@@ -3,7 +3,7 @@
 #include<string>
 
 //P9093
-// https://www.acmecontest.org/problem/9093
+// https://www.acmicpc.net/problem/9093
 int main()
 {
     std::ios_base::sync_with_stdio(false);

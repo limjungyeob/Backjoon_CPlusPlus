@@ -2,7 +2,7 @@
 #include<stack>
 #include<string>
 //P17413
-//https://www.acmecontest.org/problem/17413
+//https://www.acmicpc.net/problem/17413
 void print(std::stack<char> &s) {
     while(!s.empty()) {
         std::cout<<s.top();

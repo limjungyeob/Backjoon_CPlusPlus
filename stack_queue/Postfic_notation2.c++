@@ -3,7 +3,7 @@
 #include<stack>
 #include<string>
 //P1935
-// https://www.acmecontest.org/problem/1935
+// https://www.acmicpc.net/problem/1935
 int operand[26];
 int main()
 {

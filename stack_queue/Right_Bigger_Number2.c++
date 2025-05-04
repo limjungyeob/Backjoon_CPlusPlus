@@ -3,7 +3,7 @@
 #include<stack>
 #include<vector>
 //P17299
-// https://www.acmecontest.org/problem/17299
+// https://www.acmicpc.net/problem/17299
 int freq[1000001];
 int main() {
     std::ios_base::sync_with_stdio(false);

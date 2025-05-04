@@ -1,6 +1,6 @@
 #include<iostream>
 //P1676
-// https://www.acmecontest.org/problem/1676
+// https://www.acmicpc.net/problem/1676
 int main()
 {
     std::ios_base::sync_with_stdio(false);
