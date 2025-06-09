@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
-
+//P1149
+// https://www.acmicpc.net/problem/1149
 int d[1001][3];
 int a[1001][3];
 
