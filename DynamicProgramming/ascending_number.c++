@@ -1,0 +1,31 @@
+#include<iostream>
+long long d[1001][10];
+long long mode = 10007;
+//P11057
+// https://www.acmicpc.net/problem/11057
+
+int main() {
+    int n;
+    std::cin >> n;
+    for(int i=0; i <= 9; i++) {
+        d[1][i] = 1; // Base case: one digit numbers
+    }
+
+    for(int i=2 ; i <=n; i++) {
+        for(int j=0; j <=9; j++) {
+            for( int k=0; k <=j; k++) {
+                d[i][j] += d[i-1][k];
+                d[i][j] %= mode; // Ensure we stay within the modulus
+            }
+        }
+    }
+
+    long long ans = 0;
+    for (int i=0; i<10; i++) {
+        ans  += d[n][i];
+    }
+    ans %= mode;
+
+    std::cout << ans << '\n';
+    return 0;
+}
