@@ -12,9 +12,9 @@ int main() {
     std::vector<int> d(n);
     for(int i=0; i<n; i++) {
         d[i] = a[i];
-        //j가 순회하면서 값 탐색.
+        //Iterate over j to check values.
         for(int j=0; j<i; j++) {
-            //증가 수열 조건 + j에서 끝나는 최적합 d[j] 뒤에 a[i]를 붙이는게 더 크면 갱신
+            //If the increasing subsequence condition is satisfied and appending a[i] after the optimal sum ending at j (d[j]) gives a larger result, update it.
             if(a[j] < a[i] && d[i] < d[j] + a[i]) {
                 d[i] = d[j] + a[i];
             }
