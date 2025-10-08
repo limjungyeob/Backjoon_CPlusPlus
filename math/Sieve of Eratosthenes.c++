@@ -11,7 +11,7 @@ int main()
     for (int i=2; i*i<=MAX; i++) {
         if (check[i] == false) {
             for (int j=i+i; j<=MAX; j+=i) {
-                //i의 배수를 지운다.
+                //Remove the multiples of i.
                 check[j] = true;
             }
         }
